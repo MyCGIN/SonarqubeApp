@@ -1,0 +1,15 @@
+C:\Workspace\SonarQubeGitHub\bin\Debug\net6.0\SonarQubeGitHub.exe
+C:\Workspace\SonarQubeGitHub\bin\Debug\net6.0\SonarQubeGitHub.deps.json
+C:\Workspace\SonarQubeGitHub\bin\Debug\net6.0\SonarQubeGitHub.runtimeconfig.json
+C:\Workspace\SonarQubeGitHub\bin\Debug\net6.0\SonarQubeGitHub.dll
+C:\Workspace\SonarQubeGitHub\bin\Debug\net6.0\SonarQubeGitHub.pdb
+C:\Workspace\SonarQubeGitHub\obj\Debug\net6.0\SonarQubeGitHub.csproj.AssemblyReference.cache
+C:\Workspace\SonarQubeGitHub\obj\Debug\net6.0\SonarQubeGitHub.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\SonarQubeGitHub\obj\Debug\net6.0\SonarQubeGitHub.AssemblyInfoInputs.cache
+C:\Workspace\SonarQubeGitHub\obj\Debug\net6.0\SonarQubeGitHub.AssemblyInfo.cs
+C:\Workspace\SonarQubeGitHub\obj\Debug\net6.0\SonarQubeGitHub.csproj.CoreCompileInputs.cache
+C:\Workspace\SonarQubeGitHub\obj\Debug\net6.0\SonarQubeGitHub.dll
+C:\Workspace\SonarQubeGitHub\obj\Debug\net6.0\refint\SonarQubeGitHub.dll
+C:\Workspace\SonarQubeGitHub\obj\Debug\net6.0\SonarQubeGitHub.pdb
+C:\Workspace\SonarQubeGitHub\obj\Debug\net6.0\SonarQubeGitHub.genruntimeconfig.cache
+C:\Workspace\SonarQubeGitHub\obj\Debug\net6.0\ref\SonarQubeGitHub.dll
