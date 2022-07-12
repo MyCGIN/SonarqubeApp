@@ -1,8 +1,8 @@
 name: Build
 on:
   push:
-    branches: main
-      - master # or the name of your main branch
+    branches:
+      - main # or the name of your main branch
 
 jobs:
   build:
@@ -40,8 +40,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
         shell: powershell
         run: |
-          C:\Workspace\SonarQubeGitHub\dotnet-sonarscanner begin /k:"MyCGIN_SonarqubeApp_AYHwhxKgqj7xatF5bhh7" /d:sonar.login="sqp_84f61e6c9fab8f25a1233c9fb57792fed1c5e7df" /d:sonar.host.url="http://localhost:9000/"
-          dotnet build C:\Workspace\SonarQubeGitHub\SonarQubeGitHub.sln
-          C:\Workspace\SonarQubeGitHub\dotnet-sonarscanner end /d:sonar.login="sqp_84f61e6c9fab8f25a1233c9fb57792fed1c5e7df"
-		  
-		
+          .\.sonar\scanner\dotnet-sonarscanner begin /k:"MyCGIN_SonarqubeApp_AYHwhxKgqj7xatF5bhh7" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="${{ secrets.SONAR_HOST_URL }}"
+          dotnet build
+          .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
