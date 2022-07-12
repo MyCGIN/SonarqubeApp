@@ -43,5 +43,5 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"MyCGIN_SonarqubeApp" /o:"mycgin" /d:sonar.login="0b8a0c3d00307bb83b43ca871229a65074ce7c1e" /d:sonar.host.url="https://sonarcloud.io"
-          dotnet build C:\Workspace\SonarQubeGitHub\SonarQubeGitHub.sln
+          dotnet build C:/Workspace/SonarQubeGitHub/SonarQubeGitHub.sln
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="0b8a0c3d00307bb83b43ca871229a65074ce7c1e"
