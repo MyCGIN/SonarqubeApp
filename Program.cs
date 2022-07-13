@@ -5,7 +5,8 @@ namespace SonarQubeGitHub
     {
         static void Main(string[] args)
         {
-            int a, b=1;
+            int a;
+            int b=1;
             int sum= a+b;
             Console.WriteLine("sum="+ sum);
         }
