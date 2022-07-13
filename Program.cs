@@ -5,7 +5,7 @@ namespace SonarQubeGitHub
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome");
+            Console.WriteLine("Good morning");
         }
     }
 }
